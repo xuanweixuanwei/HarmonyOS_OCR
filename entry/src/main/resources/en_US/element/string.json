@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloHarmonyOS",
+      "value": "Hello Harmony OS"
+    },
+    {
+      "name": "take_photo",
+      "value": "take photo"
+    },
+    {
+      "name": "pick_picture",
+      "value": "pick picture"
+    },
+    {
+      "name": "copy_result",
+      "value": "copy result"
+    },
+    {
+      "name": "clear_input",
+      "value": "clear input"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "基于鸿蒙的图片文字识别APP"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloHarmonyOS",
+      "value": "Hello Harmony OS"
+    },
+    {
+      "name": "take_photo",
+      "value": "Hello Harmony OS"
+    },
+    {
+      "name": "pick_picture",
+      "value": "从相册选择"
+    },
+    {
+      "name": "copy_result",
+      "value": "复制结果"
+    },
+    {
+      "name": "clear_input",
+      "value": "清除输入"
+    }
+  ]
+}
