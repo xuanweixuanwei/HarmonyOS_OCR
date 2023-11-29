@@ -27,6 +27,18 @@
     {
       "name": "clear_input",
       "value": "clear input"
+    },
+    {
+      "name": "ocrability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "ocrability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_OCRAbility",
+      "value": "entry_OCRAbility"
     }
   ]
 }
