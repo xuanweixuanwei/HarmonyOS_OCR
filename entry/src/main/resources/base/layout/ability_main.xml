@@ -28,7 +28,7 @@
                 ohos:top_padding="10vp"
                 ohos:bottom_margin="6vp"
                 ohos:top_margin="6vp"
-                ohos:image_src="$media:img"
+                ohos:image_src="$media:testPicture"
                 ohos:background_element="$graphic:rounded_rectangle"
                 />
             <TextField
