@@ -8,11 +8,16 @@
     }
   },
   "deviceConfig": {
+    "default": {
+      "network": {
+        "cleartextTraffic": true
+      }
+    }
   },
   "module": {
     "package": "com.example.myapplication",
     "name": ".MyApplication",
-    "mainAbility": "com.example.myapplication.MainAbility",
+    "mainAbility": "com.example.myapplication.OCRAbility",
     "deviceType": [
       "phone",
       "tablet",
@@ -46,6 +51,26 @@
         "orientation": "unspecified",
         "visible": true,
         "type": "page"
+      },
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.example.myapplication.OCRAbility",
+        "description": "$string:ocrability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_OCRAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
       }
     ],
     "reqPermissions": [
@@ -54,6 +79,18 @@
       },
       {
         "name": "ohos.permission.WRITE_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.CAMERA"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
       }
     ]
   }
