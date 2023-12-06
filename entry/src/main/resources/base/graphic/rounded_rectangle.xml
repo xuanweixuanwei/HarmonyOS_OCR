@@ -10,5 +10,7 @@
         />
 <solid
     ohos:color="#11000000"/>
+    <solid
+        ohos:color="#B2E0EFEE"/>
 
 </shape>

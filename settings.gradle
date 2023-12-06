@@ -1,3 +1,4 @@
 rootProject.name = 'MyApplication'
 include ':entry'
 include ':lab2'
+include ':application'

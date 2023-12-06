@@ -27,40 +27,27 @@ public class MainAbilitySlice extends AbilitySlice {
     public void onStart(Intent intent) {
         super.onStart(intent);
         super.setUIContent(ResourceTable.Layout_ability_main);
-//        errorElement = new ShapeElement(getContext(), ResourceTable.Graphic_background_text_field_error);
-//        successElement = new ShapeElement(getContext(), ResourceTable.Graphic_rounded_rectangle);
+        errorElement = new ShapeElement(getContext(), ResourceTable.Graphic_background_text_field_error);
+        successElement = new ShapeElement(getContext(), ResourceTable.Graphic_rounded_rectangle);
         initComponents();
-//        addListeners();
     }
 
-    private void addListeners() {
-
-    }
 
     private void initComponents() {
 
         Component usernameTFCom = findComponentById(ResourceTable.Id_tf_username);
         if (usernameTFCom instanceof TextField) {
             tf_username = (TextField) usernameTFCom;
-//            tf_username.setKeyEventListener(new Component.KeyEventListener() {
-//                @Override
-//                public boolean onKeyEvent(Component component, KeyEvent keyEvent) {
-//                    return false;
-//                }
-//            });
-////            tf_username.setClickedListener(component -> getAbility().terminateAbility());
         }
 
         Component passwordTFCom = findComponentById(ResourceTable.Id_tf_password);
         if (passwordTFCom instanceof TextField) {
             tf_password = (TextField) passwordTFCom;
-//            tf_username.setClickedListener(component -> getAbility().terminateAbility());
         }
 
         Component textCom = findComponentById(ResourceTable.Id_text_result);
         if (textCom instanceof Text) {
             text_result = (Text) textCom;
-//            tf_username.setClickedListener(component -> getAbility().terminateAbility());
         }
 
         Component submitBTCom = findComponentById(ResourceTable.Id_bt_submit);
@@ -76,7 +63,6 @@ public class MainAbilitySlice extends AbilitySlice {
                     }
                 }
             });
-//            tf_username.setClickedListener(component -> getAbility().terminateAbility());
         }
 
     }
@@ -106,8 +92,8 @@ public class MainAbilitySlice extends AbilitySlice {
 
                 // 显示TextField错误状态下的样式
 
-                tf_password.setBackground(new ShapeElement(getContext(), ResourceTable.Graphic_background_text_field_error));
-                tf_username.setBackground(new ShapeElement(getContext(), ResourceTable.Graphic_background_text_field_error));
+                tf_password.setBackground(errorElement);
+                tf_username.setBackground(errorElement);
                 // TextField失去焦点
                 tf_username.clearFocus();
                 tf_password.clearFocus();
@@ -132,9 +118,9 @@ public class MainAbilitySlice extends AbilitySlice {
             public void run() {
                 text_result.setVisibility(Component.HIDE);
 
-                // 显示TextField错误状态下的样式
-                tf_password.setBackground(new ShapeElement(getContext(), ResourceTable.Graphic_rounded_rectangle));
-                tf_username.setBackground(new ShapeElement(getContext(), ResourceTable.Graphic_rounded_rectangle));
+                // 显示TextField正常等待输入状态下的样式
+                tf_password.setBackground(successElement);
+                tf_username.setBackground(successElement);
 
             }
         }, 10);

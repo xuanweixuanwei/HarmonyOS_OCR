@@ -39,6 +39,30 @@
     {
       "name": "entry_OCRAbility",
       "value": "entry_OCRAbility"
+    },
+    {
+      "name": "cameraability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "cameraability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_CameraAbility",
+      "value": "entry_CameraAbility"
+    },
+    {
+      "name": "hellopageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "hellopageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_HelloPageAbility",
+      "value": "entry_HelloPageAbility"
     }
   ]
 }

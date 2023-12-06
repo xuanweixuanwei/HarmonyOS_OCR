@@ -39,6 +39,30 @@
     {
       "name": "entry_OCRAbility",
       "value": "entry_OCRAbility"
+    },
+    {
+      "name": "cameraability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "cameraability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_CameraAbility",
+      "value": "相机"
+    },
+    {
+      "name": "hellopageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "hellopageability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_HelloPageAbility",
+      "value": "entry_HelloPageAbility"
     }
   ]
 }
