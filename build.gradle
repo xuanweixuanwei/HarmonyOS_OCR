@@ -6,9 +6,9 @@ ohos {
     signingConfigs {
         debug {
             storeFile file('C:\\Users\\xuanwei\\.ohos\\config\\auto_debug_MyApplication_com.example.myapplication_270086000122285263.p12')
-            storePassword '0000001B503F739991653883A37209523E36EC30E1EACE36701B356B42B9FCE4CEAF1023CEBD1F9A8B9331'
+            storePassword '0000001B1B3E225599129D2C25B105A5A9FB5041BE8EDFE4D9139D7A53252DFBD1579134A268BD7A980368'
             keyAlias = 'debugKey'
-            keyPassword '0000001BDA2E8665C4FD015A90F798C2B07D96204A6503F99EDE2E68A31A26215E1BFC4C9AE50F0BAAD67C'
+            keyPassword '0000001B552A7859953427F8DDF322BD9876884A73257206643C8390FF70E6FB802683FAFDC59E54A66D9C'
             signAlg = 'SHA256withECDSA'
             profile file('C:\\Users\\xuanwei\\.ohos\\config\\auto_debug_MyApplication_com.example.myapplication_270086000122285263.p7b')
             certpath file('C:\\Users\\xuanwei\\.ohos\\config\\auto_debug_MyApplication_com.example.myapplication_270086000122285263.cer')

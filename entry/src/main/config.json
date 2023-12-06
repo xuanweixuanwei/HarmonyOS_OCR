@@ -33,23 +33,12 @@
     },
     "abilities": [
       {
-        "skills": [
-          {
-            "entities": [
-              "entity.system.home"
-            ],
-            "actions": [
-              "action.system.home"
-            ]
-          }
-        ],
         "name": "com.example.myapplication.MainAbility",
         "description": "$string:mainability_description",
         "icon": "$media:icon",
         "label": "$string:entry_MainAbility",
         "launchType": "standard",
         "orientation": "unspecified",
-        "visible": true,
         "type": "page"
       },
       {
@@ -66,19 +55,37 @@
         "name": "com.example.myapplication.OCRAbility",
         "description": "$string:ocrability_description",
         "icon": "$media:icon",
-        "label": "$string:entry_OCRAbility",
+        "label": "$string:entry_MainAbility",
         "launchType": "standard",
         "orientation": "unspecified",
         "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.example.myapplication.CameraAbility",
+        "description": "$string:cameraability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_CameraAbility",
+        "launchType": "singleMission",
+        "orientation": "unspecified",
+        "type": "page"
+      },
+      {
+        "name": "com.example.myapplication.HelloPageAbility",
+        "description": "$string:hellopageability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
         "type": "page"
       }
     ],
     "reqPermissions": [
       {
-        "name": "ohos.permission.READ_USER_STORAGE"
+        "name": "ohos.permission.READ_MEDIA"
       },
       {
-        "name": "ohos.permission.WRITE_USER_STORAGE"
+        "name": "ohos.permission.WRITE_MEDIA"
       },
       {
         "name": "ohos.permission.CAMERA"
@@ -92,6 +99,14 @@
       {
         "name": "ohos.permission.INTERNET"
       }
-    ]
+    ],
+    "distroFilter": {
+      "apiVersion": {
+        "value": [
+          6
+        ],
+        "policy": "include"
+      }
+    }
   }
 }
