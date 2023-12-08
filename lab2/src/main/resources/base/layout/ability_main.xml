@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+    <Image
+        ohos:width="100fp"
+        ohos:height="100fp"
+        ohos:image_src="$media:icon"
+        ohos:scale_mode="stretch"
+        ohos:bottom_margin="30fp"/>
+
+<TextField
+    ohos:id="$+id:tf_username"
+    ohos:width="300fp"
+    ohos:height="match_content"
+    ohos:text_size="20vp"
+    ohos:text_input_type="pattern_text"
+    ohos:layout_alignment="horizontal_center"
+    ohos:hint="$string:hint_username"
+    ohos:background_element="$graphic:rounded_rectangle"
+    ohos:margin="10vp"
+    ohos:padding="10vp"
+    ohos:top_padding="20fp"
+    ohos:bottom_padding="20fp"
+    />
+    <TextField
+        ohos:id="$+id:tf_password"
+        ohos:width="300fp"
+        ohos:height="match_content"
+        ohos:text_size="20vp"
+        ohos:text_input_type="pattern_password"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="$string:hint_password"
+        ohos:background_element="$graphic:rounded_rectangle"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:top_padding="20fp"
+        ohos:bottom_padding="20fp"
+        />
+    <Button
+        ohos:id="$+id:bt_submit"
+        ohos:width="300fp"
+        ohos:height="match_content"
+        ohos:text_size="20vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:text_bt_submit"
+        ohos:background_element="$graphic:button_background"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:top_padding="20fp"
+        ohos:bottom_padding="20fp"
+        ohos:text_color="$ohos:color:id_color_bottom_tab_bg"
+        />
+    <Text
+        ohos:id="$+id:text_result"
+        ohos:width="300fp"
+        ohos:height="match_content"
+        ohos:text_size="20vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_alignment="horizontal_center"
+        ohos:text="$string:text_wrong_result"
+        ohos:text_color="$ohos:color:id_color_badge_red"
+        ohos:margin="10vp"
+        ohos:padding="10vp"
+        ohos:top_padding="20fp"
+        ohos:bottom_padding="20fp"
+        ohos:visibility="hide"
+        />
+
+
+</DirectionalLayout>

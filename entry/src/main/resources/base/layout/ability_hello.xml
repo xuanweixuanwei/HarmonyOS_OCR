@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:layout_alignment="horizontal_center">
+    <Text
+        ohos:width="match_parent"
+        ohos:height="match_content"
+
+        ohos:text_size="19fp"
+        ohos:margin="30fp"
+        ohos:text_alignment="center"
+        ohos:text="基于Harmony OS 的文字识别APP"/>
+
+    <Image
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:image_src="$media:intro"/>
+</DirectionalLayout>

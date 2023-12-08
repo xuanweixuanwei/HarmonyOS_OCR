@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos">
+
+    <DirectionalLayout
+        ohos:id="$+id:root_container"
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+
+        <DirectionalLayout
+            ohos:id="$+id:surface_container"
+            ohos:height="0"
+            ohos:weight="10"
+            ohos:width="match_parent" />
+        <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:weight="1"
+            ohos:height="0"
+            ohos:align_parent_bottom="$+id:root_container"
+            ohos:bottom_margin="10vp"
+            ohos:orientation="horizontal"
+            ohos:background_element="#ffffffff">
+
+            <Button
+                ohos:id="$+id:exit_image"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:weight="1"
+                ohos:layout_alignment="vertical_center"
+                ohos:start_padding="15px"
+                ohos:end_padding="5px"
+                ohos:start_margin="20vp"
+                ohos:end_margin="15vp"
+                ohos:scale_mode="zoom_center"
+                ohos:background_element="$media:ic_camera_back"
+                />
+            <Text
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:weight="1"
+                ohos:layout_alignment="vertical_center"
+                ohos:scale_mode="zoom_center"
+                />
+
+            <Button
+                ohos:id="$+id:take_photo_image"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:weight="1"
+                ohos:layout_alignment="vertical_center"
+                ohos:start_padding="15px"
+                ohos:end_padding="5px"
+                ohos:start_margin="20vp"
+                ohos:end_margin="15vp"
+                ohos:scale_mode="zoom_center"
+                ohos:background_element="$media:ic_camera_photo"
+                ohos:clickable="true"
+                />
+            <Text
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:weight="1"
+                ohos:layout_alignment="vertical_center"
+                ohos:scale_mode="zoom_center"
+                />
+            <Button
+                ohos:id="$+id:switch_camera_image"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:weight="1"
+                ohos:layout_alignment="vertical_center"
+                ohos:start_padding="15px"
+                ohos:end_padding="5px"
+                ohos:start_margin="20vp"
+                ohos:end_margin="15vp"
+                ohos:scale_mode="zoom_center"
+                ohos:background_element="$media:ic_camera_switch"
+                ohos:clickable="true"
+                />
+
+
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

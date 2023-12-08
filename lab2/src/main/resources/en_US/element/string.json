@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "lab2_MainAbility",
+      "value": "lab2_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "hint_username",
+      "value": "请输入用户名"
+    },
+    {
+      "name": "hint_password",
+      "value": "请输入密码"
+    },
+    {
+      "name": "text_bt_submit",
+      "value": "登陆"
+    }
+  ]
+}
