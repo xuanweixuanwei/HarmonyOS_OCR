@@ -16,7 +16,6 @@
         <DirectionalLayout
             ohos:height="match_content"
             ohos:width="match_content">
-            <!-- $media:plant为在media目录引用的图片资源 -->
             <Image
                 ohos:id="$+id:image_to_recognize"
                 ohos:width="match_content"
@@ -26,7 +25,7 @@
                 ohos:end_padding="10vp"
                 ohos:top_padding="10vp"
                 ohos:bottom_margin="6vp"
-                ohos:top_margin="6vp"
+                ohos:margin="6vp"
                 ohos:image_src="$media:testPicture"
                 ohos:background_element
                     ="$graphic:rounded_rectangle"
@@ -34,12 +33,17 @@
             <TextField
                 ohos:id="$+id:tf_recognize_result"
                 ohos:width="match_parent"
-                ohos:height="match_content"
+                ohos:height="500vp"
                 ohos:start_padding="10vp"
                 ohos:end_padding="10vp"
+                ohos:top_padding="10vp"
+                ohos:bottom_margin="6vp"
+                ohos:margin="10vp"
                 ohos:text_size="15fp"
                 ohos:multiple_lines="true"
-                ohos:text="初始测试数据"/>
+                ohos:text="初始测试数据"
+                ohos:element_cursor_bubble="$graphic:rounded_rectangle"
+                ohos:background_element="$graphic:rounded_rectangle"/>
         </DirectionalLayout>
     </NestedScrollView>
     <DirectionalLayout

@@ -18,15 +18,15 @@
     },
     {
       "name": "pick_picture",
-      "value": "从相册选择"
+      "value": "相册"
     },
     {
       "name": "copy_result",
-      "value": "复制结果"
+      "value": "复制"
     },
     {
       "name": "clear_input",
-      "value": "清除输入"
+      "value": "清空"
     },
     {
       "name": "ocrability_description",

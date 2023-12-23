@@ -17,7 +17,7 @@
   "module": {
     "package": "com.example.myapplication",
     "name": ".MyApplication",
-    "mainAbility": "com.example.myapplication.OCRAbility",
+    "mainAbility": "com.example.myapplication.HelloPageAbility",
     "deviceType": [
       "phone",
       "tablet",
@@ -33,25 +33,6 @@
     },
     "abilities": [
       {
-        "name": "com.example.myapplication.MainAbility",
-        "description": "$string:mainability_description",
-        "icon": "$media:icon",
-        "label": "$string:entry_MainAbility",
-        "launchType": "standard",
-        "orientation": "unspecified",
-        "type": "page"
-      },
-      {
-        "skills": [
-          {
-            "entities": [
-              "entity.system.home"
-            ],
-            "actions": [
-              "action.system.home"
-            ]
-          }
-        ],
         "name": "com.example.myapplication.OCRAbility",
         "description": "$string:ocrability_description",
         "icon": "$media:icon",
@@ -66,11 +47,20 @@
         "description": "$string:cameraability_description",
         "icon": "$media:icon",
         "label": "$string:entry_CameraAbility",
-        "launchType": "singleMission",
+        "launchType": "standard",
         "orientation": "unspecified",
         "type": "page"
       },
-      {
+      {"skills": [
+        {
+          "entities": [
+            "entity.system.home"
+          ],
+          "actions": [
+            "action.system.home"
+          ]
+        }
+      ],
         "name": "com.example.myapplication.HelloPageAbility",
         "description": "$string:hellopageability_description",
         "icon": "$media:icon",
