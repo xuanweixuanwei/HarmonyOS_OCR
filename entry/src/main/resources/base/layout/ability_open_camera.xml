@@ -21,7 +21,7 @@
             ohos:align_parent_bottom="$+id:root_container"
             ohos:bottom_margin="10vp"
             ohos:orientation="horizontal"
-            ohos:background_element="#00ffffff">
+            ohos:background_element="#B0F6F3F3">
 
             <Button
                 ohos:id="$+id:exit_image"
